@@ -1,0 +1,81 @@
+.Pricing{
+    position: relative;
+    top: 150px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+
+        &-title{
+        width: 289px;
+        height: 48px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 65px;
+        margin: 50px auto;
+        color: #FFFFFF;
+    }
+
+    &-text{
+        width: 433px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        margin: 50px auto;
+        text-align: center;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+
+    }
+
+    &-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    &-card{
+        width: 310px;
+        height: 500px;
+        padding: 20px;
+
+        border: 2px solid darkgrey;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        text-align: start;
+    }
+
+    &-item-box{
+        margin-bottom: auto;
+    }
+
+    &-card-item{
+        width: 433px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        margin: 50px auto;
+        text-align: center;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+    }
+
+
+}

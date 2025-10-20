@@ -1,0 +1,88 @@
+.Clients{
+    position: relative;
+    top: 150px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+
+
+    &-title{
+        width: 289px;
+        height: 48px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 65px;
+        margin: 50px auto;
+        color: #FFFFFF;
+    }
+
+    &-text{
+        width: 433px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        margin: 50px auto;
+        text-align: center;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+
+    }
+
+    &-box{
+        position: absolute;
+        width: 340px;
+        height: 170px;
+        text-align: start;
+        color: #FFFFFF;
+
+        top: 368px;
+        left: 900px;
+
+        &-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 31px;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+        }
+
+    }
+
+    &-name-item1{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+
+
+    }
+
+    &-name-item2{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -0.0001em;
+
+        color: rgba(255, 255, 255, 0.7);
+
+    }
+}

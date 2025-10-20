@@ -1,0 +1,61 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+
+
+    &-logo{
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 10px;
+    }
+
+    &-btn{
+       width: 114px;
+       border: 2px solid darkgray;
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    &-item{
+    margin: auto;
+    width: 109px;
+    height: 30px;
+
+    background: #8A2BE2;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    }
+}
+
+.Tools{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    border: darkgray 1px solid;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+    &-item{
+        position: relative;
+        top: 8px;
+        text-decoration: none;
+        color: darkgrey;
+    }
+}

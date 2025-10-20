@@ -1,0 +1,154 @@
+.Intro{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding: 20px;
+
+
+    height: 1400px;
+
+    &-title{
+    /* Heading 1 */
+
+    margin: auto;
+
+    width: 800px;
+    height: 250px;
+
+    text-shadow: #8A2BE2 0px 40px 100px;
+
+    /* Heading 1 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 84px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    }
+
+    &-text{
+
+        width: 544px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+
+        text-shadow: #8A2BE2 0px 40px 40px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        bottom: 40px;
+
+        color: #FFFFFF;
+
+
+    }
+
+    &-img{
+        width: 1400px;
+    }
+
+    &-img2{
+        position: absolute;
+        top: 1000px;
+        right: -2px;
+        width: 101%;
+    }
+
+    &-btn{
+        margin: auto;
+        width: 130px;
+        border-radius: 12px;
+        border: rgba(255, 255, 255, 0.1) 2px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        gap: 8px;
+
+    }
+
+    &-item{
+        width: 130px;
+        height: 50px;
+        margin: auto;
+        border: none;
+        padding: 5px 15px;
+        gap: 8px;
+
+        background: rgba(255, 255, 255, 1);
+        border-radius: 12px;
+
+
+        /* Start for free */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+
+        color: #000000;
+        box-shadow: #8A2BE2 0px 0px 100px;
+    }
+
+}
+
+.Integration{
+    width: 290px;
+    height: 42px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 70px auto;
+
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 70px;
+    box-shadow: #8A2BE2 0px 40px 100px;
+
+    .New{
+        width: 45px;
+        height: 30px;
+
+        background-color: #8A2BE2;
+        border-radius: 70px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 26px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #000000;
+
+    }
+
+    &-text{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #9855FF;
+
+    }
+}

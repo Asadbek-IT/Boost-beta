@@ -1,0 +1,68 @@
+.Power{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    padding: 20px;
+
+
+    &-title{
+        /* Heading2 */
+
+        width: 553px;
+        height: 114px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+
+        margin: 50px auto;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    &-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 50px auto;
+    }
+
+    &-card{
+        padding: 40px;
+        height: 320px;
+        width: 300px;
+        border: 2px solid darkgrey;
+        border-radius: 10px;
+
+    }
+
+    &-card-title{
+
+        text-align: left;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 31px;
+
+        color: #FFFFFF;
+
+    }
+
+    &-card-text{
+
+        text-align: left;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: rgba(255, 255, 255, 0.7);
+    }
+}

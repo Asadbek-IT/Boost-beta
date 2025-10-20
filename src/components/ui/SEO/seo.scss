@@ -1,0 +1,53 @@
+.SEO {
+  background: linear-gradient(107.08deg, #190d2e 0.54%, #020103 99.46%);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+
+  position: relative;
+  top: 150px;
+  text-align: left;
+  padding: 50px;
+
+  &-title {
+    width: 354px;
+    height: 130px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 65px;
+
+    color: #ffffff;
+  }
+
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start !important;
+  }
+
+  &-card {
+    width: 100%;
+  }
+
+  &-card-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+
+        color: white;
+  }
+
+    &-card-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+
+        color: rgba(255, 255, 255, 0.7);
+  }
+}
